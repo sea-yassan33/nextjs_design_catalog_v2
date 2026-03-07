@@ -16,5 +16,14 @@
         "image": "https://i.gyazo.com/fe6f32d64df480cecbdcef8d2a6d37c2.png",
         "createdAt": "2026/03/07 10:00",
         "updatedAt": "2026/03/07 10:00"
+    },
+    {
+        "id": 3,
+        "title": "本日のトレーニング",
+        "category": "ヘルスケア",
+        "url": "/design/sample03",
+        "image": "https://i.gyazo.com/dbaaa8837d6a9ee85efdd05feda164dc.png",
+        "createdAt": "2026/03/07 19:00",
+        "updatedAt": "2026/03/07 19:00"
     }
 ]
