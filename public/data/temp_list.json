@@ -7,5 +7,14 @@
         "image": "https://i.gyazo.com/748ca33a08237bae94582edc48e6e23d.png",
         "createdAt": "2025/08/14 10:30",
         "updatedAt": "2025/10/05 10:30"
+    },
+    {
+        "id": 2,
+        "title": "ダッシュボード",
+        "category": "共通",
+        "url": "/design/sample02",
+        "image": "https://i.gyazo.com/fe6f32d64df480cecbdcef8d2a6d37c2.png",
+        "createdAt": "2026/03/07 10:00",
+        "updatedAt": "2026/03/07 10:00"
     }
 ]

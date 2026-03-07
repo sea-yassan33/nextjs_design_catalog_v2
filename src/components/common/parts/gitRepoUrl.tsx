@@ -10,6 +10,9 @@ export function GithubRepoUrl({ gitRepo }: { gitRepo: GitRepo }) {
       <div className="text-1xl text-gray-600 md:flex-row text-center">
         <Link href={gitRepo.url} target="_blank" rel="noopener noreferrer">【コードを確認する】</Link>
       </div>
+      <div className="text-1xl text-gray-600 md:flex-row text-center">
+        <Link href="/design/"> 【戻る】</Link>
+      </div>
     </div>
   );
 }
