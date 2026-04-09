@@ -8,14 +8,14 @@ export default function HeroSection() {
         {/* Left Side */}
         <div>
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-            Next.js Desing Catalog
+            Next.js Design Catalog
           </h1>
           <p className="text-lg text-slate-600 mb-8 max-w-lg">
             Next.js・Tailwind CSSを使用したデザインカタログサイトです。さまざまなコンポーネントやレイアウトの例を紹介しています。
           </p>
           <ul className="space-y-3 text-slate-800 font-medium mb-10">
             <li className="flex items-center gap-2">
-              <Link href="/desing">
+              <Link href="/design">
                 <Button className="bg-orange-200 hover:bg-orange-500 text-blak hover:text-amber-100 text-base  px-6 py-5 rounded-xl shadow-md">
                   テンプレートを見る
                 </Button>
