@@ -42,3 +42,4 @@ next-env.d.ts
 
 zz_dev
 zz_dev/*
+.prettierrc

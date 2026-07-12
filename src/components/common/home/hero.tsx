@@ -11,7 +11,8 @@ export default function HeroSection() {
             Next.js Design Catalog
           </h1>
           <p className="text-lg text-slate-600 mb-8 max-w-lg">
-            Next.js・Tailwind CSSを使用したデザインカタログサイトです。さまざまなコンポーネントやレイアウトの例を紹介しています。
+            Next.js・Tailwind
+            CSSを使用したデザインカタログサイトです。さまざまなコンポーネントやレイアウトの例を紹介しています。
           </p>
           <ul className="space-y-3 text-slate-800 font-medium mb-10">
             <li className="flex items-center gap-2">
@@ -21,19 +22,21 @@ export default function HeroSection() {
                 </Button>
               </Link>
             </li>
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <Link href="/parts">
                 <Button className="bg-sky-200 hover:bg-sky-500 text-blak hover:text-amber-100 text-base px-6 py-5 rounded-xl shadow-md">
                   パーツコンポーネントを見る
                 </Button>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         {/* Right Side */}
         <div className="relative">
           <div className="absolute top-4 left-4 bg-white p-4 rounded-xl shadow-md w-2/3">
-            <p className="text-sm text-slate-700 font-semibold mb-2">Meeting summary</p>
+            <p className="text-sm text-slate-700 font-semibold mb-2">
+              Meeting summary
+            </p>
             <div className="h-16 bg-gradient-to-t from-orange-200 to-orange-100 rounded-md"></div>
           </div>
           <div className="relative rounded-2xl overflow-hidden shadow-lg">

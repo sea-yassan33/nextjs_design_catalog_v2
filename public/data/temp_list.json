@@ -13,7 +13,7 @@
         "title": "ダッシュボード",
         "category": "共通",
         "url": "/design/sample02",
-        "image": "https://i.gyazo.com/fe6f32d64df480cecbdcef8d2a6d37c2.png",
+        "image": "/no_img02.svg",
         "createdAt": "2026/03/07 10:00",
         "updatedAt": "2026/03/07 10:00"
     },
@@ -22,7 +22,16 @@
         "title": "本日のトレーニング",
         "category": "ヘルスケア",
         "url": "/design/sample03",
-        "image": "https://i.gyazo.com/dbaaa8837d6a9ee85efdd05feda164dc.png",
+        "image": "/no_img02.svg",
+        "createdAt": "2026/03/07 19:00",
+        "updatedAt": "2026/03/07 19:00"
+    },
+    {
+        "id": 4,
+        "title": "コーポレートページ",
+        "category": "共通",
+        "url": "/design/sample04",
+        "image": "/no_img02.svg",
         "createdAt": "2026/03/07 19:00",
         "updatedAt": "2026/03/07 19:00"
     }
