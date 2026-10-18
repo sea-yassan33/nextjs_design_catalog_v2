@@ -4,9 +4,9 @@
 - Webデザインカタログは、様々なWebデザインのサンプルを集めたリポジトリです。
 - デザイナーや開発者が参考にできるよう、カテゴリ別に整理されています。
 
-```sh
-npx create-next-app@latest
-```
+> リポジトリ
+
+https://github.com/sea-yassan33/nextjs_design_catalog_v2
 
 ## 開発環境
 - Next.js@16.1.6

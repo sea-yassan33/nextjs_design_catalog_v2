@@ -14,6 +14,9 @@ export const metadata: Metadata = {
 };
 // テンプレートリスト一覧作成
 const templat_list: TemplateRow[] = templat_list_data;
+const sort_list = [...(templat_list as TemplateRow[])].sort(
+  (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime(),
+);
 
 export default function DesingPage() {
   return (
@@ -32,19 +35,33 @@ export default function DesingPage() {
             迅速な開発をサポートします。
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {templat_list.map((temp) => (
+            {sort_list.map((temp) => (
               <Link key={temp.id} href={temp.url || "#"}>
                 <Card className="overflow-hidden shadow-md hover:shadow-lg transition">
                   <CardContent className="p-0">
                     <div className="relative w-full h-64">
-                      {temp.image
-                        ? <Image src={temp.image} alt={temp.title} fill className="object-cover" />
-                        : <Image src="/no_img.svg" alt={temp.title} fill className="object-cover" />
-                      }
+                      {temp.image ? (
+                        <Image
+                          src={temp.image}
+                          alt={temp.title}
+                          fill
+                          className="object-cover"
+                        />
+                      ) : (
+                        <Image
+                          src="/no_img.svg"
+                          alt={temp.title}
+                          fill
+                          className="object-cover"
+                        />
+                      )}
                     </div>
                     <div className="p-4 text-left">
                       <h3 className="font-semibold text-lg">{temp.title}</h3>
                       <p className="text-sm text-gray-500">{temp.category}</p>
+                      <p className="text-sm text-gray-500">
+                        [更新日]{temp.updatedAt}
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
