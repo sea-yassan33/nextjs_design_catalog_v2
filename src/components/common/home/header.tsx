@@ -40,11 +40,11 @@ export default function Header() {
         </div>
         {/* Actions */}
         <div className="flex items-center gap-4">
-          <Link href="/">
+          {/* <Link href="/">
             <Button variant="outline" className="hidden md:inline-flex">
               デザイン★カタログについて
             </Button>
-          </Link>
+          </Link> */}
           {/* <Button className="hidden bg-gray-900 text-white hover:bg-gray-800 md:inline-flex">
             問い合わせ
           </Button> */}
@@ -83,11 +83,11 @@ export default function Header() {
               </Link>
             ))}
             <div className="pt-3 flex flex-col gap-2">
-              <Link href="/">
+              {/* <Link href="/">
                 <Button variant="outline" onClick={closeMenu}>
                   デザイン★カタログについて
                 </Button>
-              </Link>
+              </Link> */}
               {/* <Button
                 className="bg-gray-900 text-white hover:bg-gray-800"
                 onClick={closeMenu}
